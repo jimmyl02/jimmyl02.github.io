@@ -1,8 +1,4 @@
-@import url(
-	https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,
-	400,
-	400italic|Roboto+Mono
-);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,400italic|Roboto+Mono");
 
 html {
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -15,6 +11,7 @@ html {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 	padding: 2em 0 0 0;
 }
 
@@ -30,7 +27,6 @@ html {
 }
 
 .bio {
-    text-align: center;
 	font-size: 90%;
 }
 
@@ -45,7 +41,7 @@ html {
 
 .link-item {
 	a {
-      	color: #8d7edc;
+		color: #8d7edc;
 		text-decoration: none;
 		&:hover {
 			color: #bfb6eb;
@@ -61,3 +57,4 @@ html {
 		}
 	}
 }
+

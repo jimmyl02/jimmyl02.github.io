@@ -1,66 +1,61 @@
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
-}
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,400italic|Roboto+Mono");
+
 html {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  line-height: 1.5;
-  font-size: 2em;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	line-height: 1.5;
+	font-size: 2em;
 }
+
 .main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding: 2em 0 0 0;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 2em 0 0 0;
 }
+
 .avatar {
-  border-radius: 75px;
-  width: 150px;
-  height: 150px;
+	border-radius: 75px;
+	width: 150px;
+	height: 150px;
 }
+
 .name {
-  font-size: 1.5em;
-  color: #f36170;
+	font-size: 1.5em;
+	color: #f36170;
 }
+
 .bio {
-  text-align: center;
-  font-size: 90%;
+	font-size: 90%;
 }
+
 .links {
-  color: #000000;
+	color: #000000;
 }
+
 .link-list {
-  margin: 0.25em 0 0 0;
-  list-style: none;
+	margin: 0.25em 0 0 0;
+	list-style: none;
 }
+
 .link-item {
-  display: inline-block;
+	display: inline-block;
 }
+
 .link-item a {
-  color: #8d7edc;
-  text-decoration: none;
+	color: #8d7edc;
+	text-decoration: none;
 }
+
 .link-item a:hover {
-  color: #bfb6eb;
+	color: #bfb6eb;
 }
+
 .link-item::after {
-  content: "/";
+	content: "/";
 }
+
 .link-item:last-child::after {
-  content: "";
+	content: "";
 }
