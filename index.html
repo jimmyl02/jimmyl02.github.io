@@ -1,40 +1,143 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Jimmy Li">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home | Jimmy Li</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div class="main">
-            <img class="avatar" src="img/profile.jpg" alt="">
-            <span class="name">
-                Jimmy Li
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jimmy Li" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Jimmy Li</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta
+      name="description"
+      content="Hi, I'm Jimmy, a software engineering wiht a passion for security, infrastructure, machine learning, and startups"
+    />
+    <meta
+      name="keywords"
+      content="jimmy li, cybersecurity, ctfs, jimmy li security"
+    />
+    <meta name="og:title" content="Home | Jimmy Li" />
+    <meta
+      name="og:description"
+      content="Hi, I'm Jimmy, a software engineering wiht a passion for security, infrastructure, machine learning, and startups"
+    />
+    <meta name="og:image" content="https://jimmyli.us/assets/profile.webp" />
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="header-container">
+        <div class="header-text">
+          <div class="header-intro">
+            <span>Hi, I'm </span><span class="semi-bold">Jimmy</span>
+          </div>
+          <div class="header-body">
+            <span>a</span>
+            <span class="underline-orange">software engineer</span>
+            <span>
+              with a passion for security, infrastructure, machine learning, and
+              startups
             </span>
-            <span class="bio">
-                Web Developer, CTFs with redpwn and dicegang
-            </span>
-            <div class="links">
-                <ul class="link-list">
-                    <li class="link-item">
-                        <a href="mailto:me@jimmyli.us">mail</a>
-                    </li>
-                    <li class="link-item">
-                        <a href="https://twitter.com/jimfutsu">twitter</a>
-                    </li>
-                    <li class="link-item">
-                        <a href="https://blog.jimmyli.us">blog</a>
-                    </li>
-                    <li class="link-item">
-                        <a href="https://github.com/jimmyl02">github</a>
-                    </li>
-                    <li class="link-item">
-                        <a href="https://www.linkedin.com/in/jimmy-li-99b154142/">linkedin</a>
-                    </li>
-                </ul>
-            </div>
+          </div>
+          <div class="header-links">
+            <a href="mailto:me@jimmyli.us"
+              ><img src="./assets/icons/mail.svg" alt="mail"
+            /></a>
+            <a href="https://twitter.com/jimfutsu"
+              ><img src="./assets/icons/twitter.svg" alt="twitter"
+            /></a>
+            <a href="https://blog.jimmyli.us"
+              ><img src="./assets/icons/blog.svg" alt="blog"
+            /></a>
+            <a href="https://github.com/jimmyl02"
+              ><img src="./assets/icons/github.svg" alt="github"
+            /></a>
+            <a href="https://www.linkedin.com/in/jimmy-li1/"
+              ><img src="./assets/icons/linkedin.svg" alt="linkedin"
+            /></a>
+          </div>
         </div>
-    </body>
+        <div>
+          <img
+            src="./assets/profile.webp"
+            alt="pattern profile picture"
+            class="header-image"
+          />
+        </div>
+      </div>
+      <div class="journey-container">
+        <span class="semi-bold underline-green">My Journey</span>
+        <div class="journey-body">
+          <div>
+            <span
+              >I had an early interest in cybersecurity and was fortunate to
+              compete in CTFs with </span
+            ><a href="https://redpwn.net"
+              ><span class="underline-red">redpwn</span></a
+            ><span> and </span
+            ><a href="https://dicega.ng"
+              ><span class="underline-red">dicegang</span></a
+            ><span>
+              focusing on web application security. You can find many of my
+              writeups and musings on
+              <a href="https://blog.jimmyli.us"
+                ><span class="underline-red">my blog</span></a
+              >.</span
+            >
+          </div>
+          <div>
+            <span
+              >I became fascinated with large software systems and had the
+              privilege of working on infrastructure security at Pinterest, data
+              ingestion at Crowdstrike, and all facets of product and
+              infrastructure engineering at Relentlo.</span
+            >
+          </div>
+          <div>
+            <span
+              >In the present day, my focus is on building fun and delightful
+              products with impact.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="projects-container">
+        <span class="semi-bold underline-green">Some Cool Projects</span>
+        <div class="project-container">
+          <div class="project-title">
+            <span class="underline-orange">rVPN</span>
+          </div>
+          <div class="project-body">
+            <span class="text-small"
+              >rVPN is an identity based Wireguard VPN control and data plane.
+              The goal is to greatly simplify making any server a VPN entry
+              point as well as clients connecting to the VPN through native
+              clients.
+            </span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/redpwn/rvpn"
+              ><span class="underline-red text-small">Github</span></a
+            >
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-title">
+            <span class="underline-orange">guessr.app</span>
+          </div>
+          <div class="project-body">
+            <span class="text-small"
+              >Guessr is a multiplayer real-time song guessing game with a
+              horizontally scalable architecture built on Redis and WebSockets.
+            </span>
+          </div>
+          <div class="project-links">
+            <a href="https://guessr.app"
+              ><span class="underline-red text-small">Website</span></a
+            >
+            <a href="https://github.com/jimmyl02/guessrapp"
+              ><span class="underline-red text-small">Github</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
